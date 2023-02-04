@@ -1,18 +1,18 @@
 # Sysinfocus SpotAssist 1.0
 This is a tiny utility to perform routine tasks and create code repository for internal use. This utility has the ability to store any text as template and recall it based on the shortcut name given. It can also be used to process templated data.
 
-## Examples
-1. To open a website
-```
-~>open http://google.com
-```
-Copy the line starting with ~> and boom! your website is opened.
+## How to use?
+- Download `SpotAssist.zip` file and extract it to any folder.
+- Run `SpotAssist.exe` the only file in the .zip, which is a console application.
+- When this app is running, you can do all the following things mentioned in the examples below.
 
-2. To open a folder in your PC
-```
-~>open c:\foldername
-```
-Copy the line starting with ~> and boom! your folder is opened if exists, else will open the Documents folder by default.
+**Note**: This is the first release of this application. If you come across any issues, just open *'Issues'* here in **GitHub**, will try to resolve. This application currently runs only on Windows 10/11 operating systems.
+
+
+## Examples
+1. To open a website, type and copy `~>open http://google.com` and boom! your website is opened.
+
+2. To open a folder in your PC, type and copy `~>open c:\foldername` and boom! your folder is opened if exists, else will open the Documents folder by default.
 
 3. To create template
 ```
