@@ -1,6 +1,8 @@
 # Sysinfocus SpotAssist 1.0
 This is a tiny utility to perform routine tasks and create code repository for internal use. This utility has the ability to store any text as template and recall it based on the shortcut name given. It can also be used to process templated data.
 
+# It's FREE!
+
 ## How to use?
 - Download `SpotAssist.zip` file and extract it to any folder.
 - Run `SpotAssist.exe` the only file in the .zip, which is a console application.
