@@ -3,6 +3,10 @@ This is a tiny utility to perform routine tasks and create code repository for i
 
 # It's FREE!
 
+## Version Update
+- 1.0.1 (5-Feb-2023)
+  - Now shows errors, if any on the console.
+
 ## How to use?
 - Download `SpotAssist.zip` file and extract it to any folder.
 - Run `SpotAssist.exe` the only file in the .zip, which is a console application.
