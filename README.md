@@ -11,6 +11,11 @@ This is a tiny utility to perform routine tasks and create code repository for i
 - 1.0.1 (5-Feb-2023)
   - Now shows errors, if any on the console.
 
+## Videos
+[![Open any website from anywhere using Sysinfocus SpotAssist 1.0](https://img.youtube.com/vi/0Y5MYQE9KlI/0.jpg)](https://www.youtube.com/watch?v=0Y5MYQE9KlI)
+[![Power of Sysinfocus SpotAssist 1.0](https://img.youtube.com/vi/8NaXb9HgN6g/0.jpg)](https://www.youtube.com/watch?v=8NaXb9HgN6g)
+
+
 ## How to use?
 - Download `SpotAssist.zip` file and extract it to any folder.
 - Run `SpotAssist.exe` the only file in the .zip, which is a console application.
