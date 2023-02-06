@@ -41,7 +41,7 @@ Copy the lines starting with => and when you paste, you will get the templated d
 
 5. To process templated data
 ```
-~>process
+~>process-comma
 This will be the template. You can have {Guid}, {Date}, {Time} or {DateTime} automatically injected.
 You can also have placeholders like {$1} and {$2} which will be replaced by comma separated data provided below the process terminator.
 <~
