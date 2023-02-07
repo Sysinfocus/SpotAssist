@@ -8,6 +8,11 @@ This is a tiny utility to perform routine tasks and create code repository for i
 - Ability to query SQLite database.
 
 ## Version Update
+- 1.0.2 (7-Feb-2023)
+  - Type `~>open help` and copy to land on this page.
+  - More templates to process - `{Day}`, `{Month}`, `{Year}`, `{Weekday}`, `{Up}`, `{UTCDate}`, `{UTCTime}`, `{UTCDateTime}`
+  - More convesions - `~>process-tobase64`, `~>process-frombase64`, `~>process-repeat`
+
 - 1.0.1 (5-Feb-2023)
   - Now shows errors, if any on the console.
 
@@ -134,4 +139,138 @@ When you copy the text starting with ~>process and paste anywhere, you will get 
 When you copy the text starting with ~>process and paste anywhere, you will get the following output.
 ```
 1	2	3	4	5	6	7	8	9	10
+```
+
+9. You have some text that needs to be converted to Base64?
+
+```
+~>process-tobase64
+Your Text Here
+```
+When you copy the text starting with ~>process and paste anywhere, you will get the following output.
+```
+WW91ciBUZXh0IEhlcmUNCg==
+```
+
+10. You have some Base64 encoded that needs to be converted to plain text?
+
+```
+~>process-frombase64
+WW91ciBUZXh0IEhlcmUNCg==
+```
+When you copy the text starting with ~>process and paste anywhere, you will get the following output.
+```
+Your Text Here
+```
+
+11. You want something to repeat or generated serial numbers for a given range?
+
+```
+~>process-repeat
+1-100
+<~
+Line No. {i}
+```
+When you copy the text starting with ~>process and paste anywhere, you will get the following output.
+```
+Line No. 1
+Line No. 2
+Line No. 3
+Line No. 4
+Line No. 5
+Line No. 6
+Line No. 7
+Line No. 8
+Line No. 9
+Line No. 10
+Line No. 11
+Line No. 12
+Line No. 13
+Line No. 14
+Line No. 15
+Line No. 16
+Line No. 17
+Line No. 18
+Line No. 19
+Line No. 20
+Line No. 21
+Line No. 22
+Line No. 23
+Line No. 24
+Line No. 25
+Line No. 26
+Line No. 27
+Line No. 28
+Line No. 29
+Line No. 30
+Line No. 31
+Line No. 32
+Line No. 33
+Line No. 34
+Line No. 35
+Line No. 36
+Line No. 37
+Line No. 38
+Line No. 39
+Line No. 40
+Line No. 41
+Line No. 42
+Line No. 43
+Line No. 44
+Line No. 45
+Line No. 46
+Line No. 47
+Line No. 48
+Line No. 49
+Line No. 50
+Line No. 51
+Line No. 52
+Line No. 53
+Line No. 54
+Line No. 55
+Line No. 56
+Line No. 57
+Line No. 58
+Line No. 59
+Line No. 60
+Line No. 61
+Line No. 62
+Line No. 63
+Line No. 64
+Line No. 65
+Line No. 66
+Line No. 67
+Line No. 68
+Line No. 69
+Line No. 70
+Line No. 71
+Line No. 72
+Line No. 73
+Line No. 74
+Line No. 75
+Line No. 76
+Line No. 77
+Line No. 78
+Line No. 79
+Line No. 80
+Line No. 81
+Line No. 82
+Line No. 83
+Line No. 84
+Line No. 85
+Line No. 86
+Line No. 87
+Line No. 88
+Line No. 89
+Line No. 90
+Line No. 91
+Line No. 92
+Line No. 93
+Line No. 94
+Line No. 95
+Line No. 96
+Line No. 97
+Line No. 98
+Line No. 99
+Line No. 100
 ```
