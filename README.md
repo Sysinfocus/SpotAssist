@@ -11,7 +11,7 @@ This is a tiny utility to perform routine tasks and create code repository for i
 - 1.0.2 (7-Feb-2023)
   - Type `~>open help` and copy to land on this page.
   - More templates to process - `{Day}`, `{Month}`, `{Year}`, `{Weekday}`, `{Up}`, `{UTCDate}`, `{UTCTime}`, `{UTCDateTime}`
-  - More convesions - `~>process-tobase64`, `~>process-frombase64`, `~>process-repeat`
+  - More conversions - `~>process-tobase64`, `~>process-frombase64`, `~>process-repeat`
 
 - 1.0.1 (5-Feb-2023)
   - Now shows errors, if any on the console.
