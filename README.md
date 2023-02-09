@@ -3,10 +3,6 @@ This is a tiny utility to perform routine tasks and create code repository for i
 
 # It's FREE!
 
-## Upcoming features
-- Ability to query MSSQL Server database.
-- Ability to query SQLite database.
-
 ## Version Update
 - 1.0.3 (9-Feb-2023)
   - Goto release and download the files as required.
