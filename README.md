@@ -30,11 +30,11 @@ This is a tiny utility to perform routine tasks and create code repository for i
 
 
 ## Examples
-1. To open a website, type and copy `~>open http://google.com` and boom! your website is opened.
+**1. To open a website, type and copy `~>open http://google.com` and boom! your website is opened.**
 
-2. To open a folder in your PC, type and copy `~>open c:\foldername` and boom! your folder is opened if exists, else will open the Documents folder by default.
+**2. To open a folder in your PC, type and copy `~>open c:\foldername` and boom! your folder is opened if exists, else will open the Documents folder by default.**
 
-3. To create template
+**3. To create template**
 ```
 +>shortcut_name
 Line 1
@@ -43,13 +43,13 @@ Line 3
 ```
 Copy the lines starting with +> to create template
 
-4. To recall template data
+**4. To recall template data**
 ```
 =>shortcut_name
 ```
 Copy the lines starting with => and when you paste, you will get the templated data.
 
-5. To process templated data
+**5. To process templated data**
 ```
 ~>process-comma
 This will be the template. You can have {Guid}, {Date}, {Time} or {DateTime} automatically injected.
@@ -69,7 +69,7 @@ This will be the template. You can have ad807a7a-cfed-4410-9ad5-7956457a007b, 01
 You can also have placeholders like Data5 and Data6 which will be replaced by comma separated data provided below the process terminator.
 ```
 
-6. To query an API right within your text-editor:
+**6. To query an API right within your text-editor:**
 ```
 ~>process-api
 GET https://api.github.com/users/github
@@ -117,7 +117,7 @@ Response Time: 6ms
 }
 ```
 
-7. You have some text separated with Tabs and want it to be converted to Comma separated?
+**7. You have some text separated with Tabs and want it to be converted to Comma separated?**
 
 ```
 ~>process-tocomma
@@ -129,7 +129,7 @@ When you copy the text starting with ~>process and paste anywhere, you will get 
 1,2,3,4,5,6,7,8,9,10
 ```
 
-8. You have some text separated with Comma and want it to be converted to Tab separated?
+**8. You have some text separated with Comma and want it to be converted to Tab separated?**
 
 ```
 ~>process-totab
@@ -141,7 +141,7 @@ When you copy the text starting with ~>process and paste anywhere, you will get 
 1	2	3	4	5	6	7	8	9	10
 ```
 
-9. You have some text that needs to be converted to Base64?
+**9. You have some text that needs to be converted to Base64?**
 
 ```
 ~>process-tobase64
@@ -152,7 +152,7 @@ When you copy the text starting with ~>process and paste anywhere, you will get 
 WW91ciBUZXh0IEhlcmUNCg==
 ```
 
-10. You have some Base64 encoded that needs to be converted to plain text?
+**10. You have some Base64 encoded that needs to be converted to plain text?**
 
 ```
 ~>process-frombase64
@@ -163,7 +163,7 @@ When you copy the text starting with ~>process and paste anywhere, you will get 
 Your Text Here
 ```
 
-11. You want something to repeat or generated serial numbers for a given range?
+**11. You want something to repeat or generated serial numbers for a given range?**
 
 ```
 ~>process-repeat
