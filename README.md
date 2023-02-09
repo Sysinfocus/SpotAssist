@@ -79,7 +79,15 @@ GET https://api.github.com/users/github
 User-Agent: Notepad
 <~
 ```
-Copy the lines starting with ~>process-api and when you paste it anywhere, you will see the below response available for you.
+OR
+
+```
+~>process-api-mem
+GET https://api.github.com/users/github
+User-Agent: Notepad
+<~
+```
+Copy the lines starting with ~>process-api you will get the output in browser or if you have used ~>process-api-mem and when you paste it anywhere, you will see the below response available for you.
 ```
 Status Code: OK
 Response Time: 6ms
