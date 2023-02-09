@@ -10,6 +10,11 @@ The following code sample having 3 lines will show you the SQL objects that are 
 SELECT * FROM sqlite_schema;
 ```
 
+When you copy the above code, you will see the following output.
+
+![image](https://user-images.githubusercontent.com/109056087/217724509-79353ed2-752a-4121-82bb-40639a708ebd.png)
+
+
 ## What are they?
 1. First line is instruction for what type of application we are invoking.
 2. Second line is your connection string. This could be your template recalling as done here. `=>your_connection_string_here` will automatically replace with the connection string that was created as template.
