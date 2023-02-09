@@ -8,6 +8,10 @@ This is a tiny utility to perform routine tasks and create code repository for i
 - Ability to query SQLite database.
 
 ## Version Update
+- 1.0.3 (9-Feb-2023)
+  - Goto release and download the files as required.
+  - Now you can query MSSQL and SQLite databases as well from anywhere.
+  
 - 1.0.2 (7-Feb-2023)
   - Type `~>open help` and copy to land on this page.
   - More templates to process - `{Day}`, `{Month}`, `{Year}`, `{Weekday}`, `{Up}`, `{UTCDate}`, `{UTCTime}`, `{UTCDateTime}`
