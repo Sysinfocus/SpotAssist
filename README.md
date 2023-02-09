@@ -3,6 +3,9 @@ This is a tiny utility to perform routine tasks and create code repository for i
 
 # It's FREE!
 
+## Upcoming
+- Support for Mac OS
+
 ## Version Update
 - 1.0.3 (9-Feb-2023)
   - Goto release and download the files as required.
