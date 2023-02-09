@@ -7,6 +7,9 @@ This is a tiny utility to perform routine tasks and create code repository for i
 - Support for Mac OS
 
 ## Version Update
+- 1.0.4 (9-Feb-2023)
+  - Changed output of `~>process-api` command to browser and introduced `~>process-api-mem` command for in-memory results.
+  
 - 1.0.3 (9-Feb-2023)
   - Goto release and download the files as required.
   - Now you can query MSSQL and SQLite databases as well from anywhere.
