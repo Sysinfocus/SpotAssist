@@ -10,7 +10,7 @@ The following code sample having 3 lines will show you the SQL objects that are 
 SELECT * FROM sqlite_schema;
 ```
 
-When you copy the above code, you will see the following output.
+When you copy the above code, you will see the following output. Note: The output is from the `chinook.db` database which is available online for testing purpose.
 
 ![image](https://user-images.githubusercontent.com/109056087/217724509-79353ed2-752a-4121-82bb-40639a708ebd.png)
 
