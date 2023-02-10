@@ -4,6 +4,9 @@ This is a tiny utility to perform routine tasks and create code repository for i
 # It's FREE!
 
 ## Upcoming
+- Remove duplicate lines
+- Convert from tab separated data to lines
+- Find and Replace
 - Support for Mac OS
 
 ## Version Update
