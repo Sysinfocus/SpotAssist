@@ -4,12 +4,15 @@ This is a tiny utility to perform routine tasks and create code repository for i
 # It's FREE!
 
 ## Upcoming features
-- Remove duplicate lines
-- Convert from tab separated data to lines
-- Find and Replace
 - Support for Mac OS
 
 ## Version Update
+- 1.0.5 (13-Feb-2023)
+  - Remove duplicate lines using `~>process-remove-duplicates`
+  - Convert from tab separated data to lines using `~>process-tolines`
+  - Convert from lines to tab separated data using `~>process-fromlines`
+  - Find and Replace using `~>process-find-replace`
+
 - 1.0.4 (9-Feb-2023)
   - Changed output of `~>process-api` command to browser and introduced `~>process-api-mem` command for in-memory results.
   
@@ -26,6 +29,7 @@ This is a tiny utility to perform routine tasks and create code repository for i
   - Now shows errors, if any on the console.
 
 ## Videos
+[![Remove duplicates lines in Notepad using SpotAssist](https://img.youtube.com/vi/VewjRTiqIxo/0.jpg)](https://www.youtube.com/watch?v=VewjRTiqIxo)
 [![Open any website from anywhere using Sysinfocus SpotAssist 1.0](https://img.youtube.com/vi/0Y5MYQE9KlI/0.jpg)](https://www.youtube.com/watch?v=0Y5MYQE9KlI)
 [![Power of Sysinfocus SpotAssist 1.0](https://img.youtube.com/vi/8NaXb9HgN6g/0.jpg)](https://www.youtube.com/watch?v=8NaXb9HgN6g)
 
