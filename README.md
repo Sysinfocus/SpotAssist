@@ -43,6 +43,8 @@ This is a tiny utility to perform routine tasks and create code repository for i
 
 
 ## Examples
+**To get to this URL, type and copy `~>open help`**.
+
 **1. To open a website, type and copy `~>open http://google.com` and boom! your website is opened.**
 
 **2. To open a folder in your PC, type and copy `~>open c:\foldername` and boom! your folder is opened if exists, else will open the Documents folder by default.**
@@ -199,4 +201,45 @@ Line No. 2
 Line No. 3
 Line No. 4
 Line No. 5
+```
+
+**12. You have some text separated with Lines and want it to be converted to Tab separated?**
+
+```
+~>process-fromlines
+1
+2
+3
+4
+```
+When you copy the text starting with ~>process and paste anywhere, you will get the following output.
+```
+1	2	3	4
+```
+
+**13. You have some text separated with Tabs and want it to be converted to Line separated?**
+
+```
+~>process-tolines
+1	2	3	4
+```
+When you copy the text starting with ~>process and paste anywhere, you will get the following output.
+```
+1
+2
+3
+4
+```
+
+**14. To find and replace text, this is how it's achieved.**
+
+```
+~>process-find-replace
+a->b
+<~
+a b c d e a b c d
+```
+When you copy the text starting with ~>process and paste anywhere, you will get the following output.
+```
+b b c d e b b c d
 ```
