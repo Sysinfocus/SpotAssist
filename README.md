@@ -7,6 +7,10 @@ This is a tiny utility to perform routine tasks and create code repository for i
 - Support for Mac OS
 
 ## Version Update
+- 1.0.6 (19-Feb-2023)
+  - Ability to create output file using `~>process-tofile=`
+  - Bug fixes
+  
 - 1.0.5 (13-Feb-2023)
   - Remove duplicate lines using `~>process-remove-duplicates`
   - Convert from tab separated data to lines using `~>process-tolines`
