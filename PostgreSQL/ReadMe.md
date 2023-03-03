@@ -7,7 +7,7 @@ The following code sample having 3 lines will show you the SQL objects that are 
 ```
 ~>process-postgres
 =>your_connection_string_here
-SELECT * FROM sqlite_schema;
+SELECT * FROM pg_catalog.pg_tables WHERE schemaname='public';
 ```
 
 ## What are they?
