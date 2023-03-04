@@ -4,6 +4,7 @@ This is a tiny utility to perform routine tasks and create code repository for i
 # It's FREE!
 
 ## Upcoming features
+- OpenAI processor that lets you get answers to your questions, anywhere!
 - Support for Mac OS
 
 ## Version Update
