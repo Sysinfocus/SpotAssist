@@ -9,7 +9,7 @@ This is a tiny utility to perform routine tasks and create code repository for i
 
 ## Version Update
 - 1.0.7 (08-Mar-2023)
-  - Execute batch commands `~>process-batch`
+  - Execute batch commands using `~>process-batch`
   - Remind yourself or execute process using `~>process-remind`
   - Encrypt and Decrypt text based on password using `~>process-encrypt=password` or `~>process-decrypt=password`
   - Bug fixes
