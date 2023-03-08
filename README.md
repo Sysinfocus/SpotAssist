@@ -8,6 +8,12 @@ This is a tiny utility to perform routine tasks and create code repository for i
 - Support for Mac OS
 
 ## Version Update
+- 1.0.7 (08-Mar-2023)
+  - Execute batch commands `~>process-batch`
+  - Remind yourself or execute process using `~>process-remind`
+  - Encrypt and Decrypt text based on password using `~>process-encrypt=password` or `~>process-decrypt=password`
+  - Bug fixes
+  
 - 1.0.6 (19-Feb-2023)
   - Ability to create output file using `~>process-tofile=`
   - Bug fixes
@@ -248,3 +254,46 @@ When you copy the text starting with ~>process and paste anywhere, you will get 
 ```
 b b c d e b b c d
 ```
+
+**15. To execute batch commands**
+
+```
+~>process-batch
+@echo off
+cls
+c:
+cmd
+```
+When you copy the text starting with ~>process and paste anywhere, it will execute the batch commands accordingly. Also if you provide template instead of commands directly, it can pull the content and execute it.
+
+
+**16. To encrypt or decrypt text with password.**
+To encrypt:
+
+```
+~>process-encrypt=password
+SpotAssist is a cool tool.
+```
+When you copy the text starting with ~>process and paste anywhere, you will get the following output.
+```
+kh7PyPOhJ8ndhrXP6CFKUuJDWBS+qj8eSHgdT3i/AhA=
+```
+
+and to decrypt:
+```
+~>process-decrypt=password
+kh7PyPOhJ8ndhrXP6CFKUuJDWBS+qj8eSHgdT3i/AhA=
+```
+When you copy the text starting with ~>process and paste anywhere, you will get the following output.
+```
+SpotAssist is a cool tool.
+```
+
+**17. To set a reminder, you can use the following:**
+
+```
+~>process-remind
+2023-08-03 23:00
+This is the text I want to remind at the given above time.
+```
+When you copy the text starting with ~>process, it will remind you with text and speech (if `speak` processor is available). Note: Reminders are not persistent and if you exit the `SpotAssist` application, the reminders will get lost and won't be available when next time the application is ran. So, keeping `SpotAssist` running will only work in this case.
