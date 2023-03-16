@@ -8,6 +8,12 @@ This is a tiny utility to perform routine tasks and create code repository for i
 - Support for Mac OS
 
 ## Version Update
+- 1.0.8 (16-Mar-2023)
+  - Google search using `~>google Your search query`
+  - Bing search using `~>bing Your search query`
+  - Template with multiple line will auto start using `~>process-any`
+  - Bug fixes
+  
 - 1.0.7 (08-Mar-2023)
   - Execute batch commands using `~>process-batch`
   - Remind yourself or execute process using `~>process-remind`
@@ -297,3 +303,11 @@ SpotAssist is a cool tool.
 This is the text I want to remind at the given above time.
 ```
 When you copy the text starting with ~>process, it will remind you with text and speech (if `speak` processor is available). Note: Reminders are not persistent and if you exit the `SpotAssist` application, the reminders will get lost and won't be available when next time the application is ran. So, keeping `SpotAssist` running will only work in this case.
+
+**18. To search using Google, you can do the following:**
+```~>google Your search query```
+Upon selecting and copying the code, you will get the google search results for your query.
+
+**19. To search using Bing, you can do the following:**
+```~>bing Your search query```
+Upon selecting and copying the code, you will get the bing search results for your query.
